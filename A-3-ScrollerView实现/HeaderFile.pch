@@ -1,0 +1,24 @@
+//
+//  HeaderFile.pch
+//  A-3-ScrollerView实现
+//
+//  Created by HelloWorld on 15/9/23.
+//  Copyright (c) 2015年 无法修盖. All rights reserved.
+//
+
+#ifndef A_3_ScrollerView___HeaderFile_pch
+#define A_3_ScrollerView___HeaderFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+//如果是Objective-C语言
+#ifdef __OBJC__
+
+#define ARCRANDOMCOLOR  (arc4random_uniform(255)/255.0)
+#define RANDOMCOLOR     [UIColor colorWithRed:ARCRANDOMCOLOR green:ARCRANDOMCOLOR blue:ARCRANDOMCOLOR alpha:1]
+
+#endif
